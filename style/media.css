@@ -264,6 +264,11 @@
     .form__inner {
         flex-direction: column;
     }
+
+    .modal__form {
+        width: 486px;
+        height: 527px;
+    }
 }
 
 @media (max-width: 620px) {
@@ -304,6 +309,32 @@
     }
 
 }
+@media (max-width: 510px) {
+    .modal__form {
+        width: 433px;
+        height: 527px;
+        padding: 10px;
+    }
+
+    .modal__form input {
+        width: 100%;
+    }
+
+}
+@media (max-width: 480px) {
+    .modal__form {
+        width: 370px;
+        height: 480px;
+    }
+    .modal__title {
+        width: 100%;
+        font-size: 18px;
+    }
+    .modal__close {
+        top: 20px;
+        right: 20px;
+    }
+}
 
 @media (max-width: 423px) {
     .form__item {
@@ -338,6 +369,15 @@
     .intro__link {
         font-size: 14px;
         width: 180px;
+        height: 48px;
+    }
+
+    .modal__form {
+        width: 294px;
+        height: 438px;
+    }
+
+    .modal__form input {
         height: 48px;
     }
 }
