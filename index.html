@@ -236,12 +236,12 @@
 
     <div class="popup">
         <div class="modal">
-            <form action="" class="modal__form">
+            <form action="./bot.php" class="modal__form" method="post">
                 <div class="modal__close"><span></span> <span></span></div>
                 <h2 class="modal__title">Заполните данные, чтобы оформить бронирование</h2>
-                <input type="text" class="modal__name" placeholder="Как вас зовут">   
-                <input type="text" class="modal__phone" placeholder="Номер телефона">   
-                <input type="text" class="modal__cars" placeholder="Название машины ?">   
+                <input type="text" name="name" class="modal__name" placeholder="Как вас зовут" autocomplete="off" required>   
+                <input type="text" name="phone" class="modal__phone" placeholder="Номер телефона" autocomplete="off" required>   
+                <input type="text" name="cars" class="modal__cars" placeholder="Название машины ?" autocomplete="off" required>   
                 <button class="modal__btn">Отправить</button>
             </form>
         </div>
